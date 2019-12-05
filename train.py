@@ -83,7 +83,6 @@ if __name__ == "__main__":
     vibration_test = False #  set to true to see the result of key points using only one image
     if (train):
         start_train(model, 50, "C:\\Users\\kskim\\Desktop\\train-test-data", "training", 'test.pt')
-        # start_train2(model, 50, "C:\\Users\\kskim\\Desktop\\train-test-data", "training", "test", 'less_drop.pt')
     else:
         model_path = "C:\\Users\\kskim\\Desktop\\train-test-data\\test.pt"
         path = "C:\\Users\\kskim\\Desktop\\train-test-data\\test"
